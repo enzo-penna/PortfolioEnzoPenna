@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<div class="cabeçario">
+    <ul class="conteudo">
+        <li class="Enzo">
+            Enzo.Dev
+        </li>
+        <li class="canto">
+           <a href="#sobrebaixo">Sobre</a>
+        </li>
+        <li class="canto">
+           <a href="#habilidades">Habilidades</a>
+        </li>
+        <li class="canto">
+           <a href="#projetos">Projetos</a>
+        </li>
+        <li class="canto">
+           <a href="#contato">Contato</a>
+        </li>
+        <li>
+            <div class="Foto">
+                <img class="Foto" src="Enzo.png" alt="Foto do Enzo">
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h1 class="digitando"></h1>
+
+<div class="Nome">
+    <p class="portfolio"> Portfolio </p>
+    <p class="enzo"> Enzo dos Santos</p>
+    <p class="Rodrigues">Rodrigues</p>
+</div>
+
+<button id="btntema">Modo claro</button>
+
+<h1 class="texto2"> Estudante de desenvolvimento de sistemas, apaixonado por back-end, transformo ideias em códigos que funcionam de verdade</h1>
+
+<button class="verhb">VER HABILIDADES</button>
+<button class="contato">FALAR COMIGO</button>
+
+
+<div id="sobrebaixo" class="animar">
+    <div class="quem">
+        <div class="conteudo2">
+            <h2>Quem sou eu?</h2>
+            <p class="descriçao">
+                Tenho 16 anos e estudo no colégio Cotemig, no segundo ano do ensino médio. Estou desenvolvendo minhas habilidades de programação com foco na área de back-end, conquistando conhecimento através de cursos e projetos próprios. Gosto de resolver problemas, entender como as coisas funcionam por dentro e aprender algo novo todos os dias.
+            </p>
+        </div>
+
+        <div class="forma">
+            <div class="conteudo3">
+                <span class="dentro1">IDADE</span>
+                <span class="dentro">16 anos</span>
+            </div>
+
+            <div class="conteudo3">
+                <span class="dentro1">FOCO</span>
+                <span class="dentro">Back-end</span>
+            </div>
+
+            <div class="conteudo3">
+                <span class="dentro1">ESTUDANDO</span>
+                <span class="dentro">Cotemig</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="habilidades">
+    <h1 class="hb"> Habilidades</h1>
+    <span class="dd">Tecnologias que uso e aprimoro todos os dias</span>
+
+    <div class="container">
+        <div class="card">
+            <div class="topo">
+                <div class="icone"></div>
+                <span class="nome">HTML</span>
+                <span class="porcentagem">90%</span>
+            </div>
+            <div class="barra">
+                <div class="preenchido" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="topo">
+                <div class="icone"></div>
+                <span class="nome">CSS</span>
+                <span class="porcentagem">85%</span>
+            </div>
+            <div class="barra">
+                <div class="preenchido" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="topo">
+                <div class="icone"></div>
+                <span class="nome">JavaScript</span>
+                <span class="porcentagem">75%</span>
+            </div>
+            <div class="barra">
+                <div class="preenchido" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="topo">
+                <div class="icone"></div>
+                <span class="nome">MySQL</span>
+                <span class="porcentagem">70%</span>
+            </div>
+            <div class="barra">
+                <div class="preenchido" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="topo">
+                <div class="icone"></div>
+                <span class="nome">C#</span>
+                <span class="porcentagem">65%</span>
+            </div>
+            <div class="barra">
+                <div class="preenchido" style="width: 65%;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projetos" class="animar">
+    <h1 class="hb"> Projetos</h1>
+    <span class="dd">Alguns trabalhos que desenvolvi</span>
+
+    <div class="container">
+        <div class="projeto">
+            <h3>Portfólio pessoal</h3>
+            <p>Este site, feito com HTML, CSS e JavaScript, com modo claro/escuro e animações.</p>
+            <a href="https://github.com/enzo-penna">Ver no GitHub</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Ainda não tenho mais projetos</p>
+            <a href="https://github.com/enzo-penna">Ver no GitHub</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 3</h3>
+            <p>ainda não tenho mais projetos</p>
+            <a href="https://github.com/enzo-penna">Ver no GitHub</a>
+        </div>
+    </div>
+</div>
+
+
+<div id="contato" class="animar">
+    <div class="bloco">
+        <h2 class="titulo">Vamos conversar</h2>
+        <p class="texto">Aberto a estágios, projetos e oportunidades para aprender junto.</p>
+
+        <form class="formulario" action="mailto:enzopenna95@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="tel" name="telefone" placeholder="Seu telefone" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+            <button type="submit" class="botao verde">Enviar mensagem</button>
+        </form>
+
+        <div class="botoes">
+            <a href="mailto:enzopenna95@gmail.com" class="botao verde">Enviar e-mail</a>
+            <a href="https://github.com/enzo-penna" class="botao escuro">GitHub</a>
+            <a href="https://www.linkedin.com/in/enzo-p-80b64a3b3/" class="botao escuro">LinkedIn</a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="rodape">
+    <p>Enzo.Dev - Enzo dos Santos Rodrigues</p>
+    <p>
+        <a href="mailto:enzopenna95@gmail.com">enzopenna95@gmail.com</a> |
+        <a href="https://github.com/enzo-penna">GitHub</a> |
+        <a href="https://www.linkedin.com/in/enzo-p-80b64a3b3/">LinkedIn</a>
+    </p>
+</footer>
+
+<script src="java.js"></script>
+
+</body>
+</html>
