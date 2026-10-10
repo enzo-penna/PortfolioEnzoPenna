@@ -440,30 +440,4 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  html, body {
-    width: 100% !important;
-    overflow-x: hidden !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
 
-
-  div, section, header, .quem, .bloco, .card, .card-habilidade, .container, .cabeçario, .conteudo {
-    width: 100% !important;
-    max-width: 100% !important;
-    left: auto !important;
-    right: auto !important;
-    position: relative !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    box-sizing: border-box !important;
-  }
-
-
-  .conteudo, .botoes, .skills-container {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-}
